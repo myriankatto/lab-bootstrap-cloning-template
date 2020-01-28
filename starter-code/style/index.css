@@ -13,3 +13,20 @@
 .card:hover .card-img-top {
   transform: scale(1.05);
 }
+
+.bg-dark {
+  background-color: #0f0f0f !important;
+}
+
+.dash-list ul {
+  list-style: none !important;
+}
+
+.dash-list li::before {
+  content: '- ' !important;
+  color: #007bff !important;
+}
+
+ul {
+  list-style: none !important;
+}
